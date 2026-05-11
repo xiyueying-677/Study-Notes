@@ -1,4 +1,4 @@
-# javeSE笔记
+## javeSE笔记
 
 ## 快捷键
 
