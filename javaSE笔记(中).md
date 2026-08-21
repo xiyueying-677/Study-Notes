@@ -163,7 +163,7 @@ class Block{
 1. 第一次循环从0索引开始，跟后面的元素一一比较，找到最小值
 2. 第 i 次循环从 i - 1 索引开始，每次循环找到最小值，将其与开始索引交换
 
-![选择排序](img\选择排序.gif)
+![选择排序](img/选择排序.gif)
 
 ```java
         //外循环：几轮
@@ -189,7 +189,7 @@ class Block{
 2. [0 , i - 1]上的值有序，[0 ,  i] 为无序
 3. 将索引 i 的值在 [0 , i - 1]填入正确位置，使[0 , i]上的值有序
 
-![插入排序](img\插入排序.gif)
+![插入排序](img/插入排序.gif)
 
 ```java
         //1.找到无序的哪一组数组是从哪个索引开始的。
@@ -230,7 +230,7 @@ class Block{
 7. 第一轮结束之后，基准数左边的数字都是比基准数小的，基准数右边的数字都是比基准数大的。
 8. 把基准数左右两边各看做一个序列，对两个序列按照刚刚的规则递归排序
 
-![快速排序](img\快速排序.gif)
+![快速排序](img/快速排序.gif)
 
 ```java
     public static void quickSorts(int[] arr , int left, int right){
@@ -569,11 +569,11 @@ System.out.println(list);
 
 LinkedList添加元素原理
 
-![LinkedList源码分析](img\集合02-LinkedList源码分析.png)
+![LinkedList源码分析](img/集合02-LinkedList源码分析.png)
 
 迭代器原理
 
-![迭代器源码分析](img\集合03-迭代器源码分析.png)
+![迭代器源码分析](img/集合03-迭代器源码分析.png)
 
 #### 2.2.6 Hash
 
@@ -793,7 +793,7 @@ public static void show(ArrayList<? extends People> people){
 
   + 如何旋转: 直接对整体进行右旋即可
 
-    ![08_平衡二叉树左左](img\集合04-平衡二叉树左左.png)
+    ![08_平衡二叉树左左](img/集合04-平衡二叉树左左.png)
 
 + 左右
 
@@ -803,7 +803,7 @@ public static void show(ArrayList<? extends People> people){
 
     + 即先变为左左，然后整体右旋
 
-    ![09_平衡二叉树左右](img\集合05-平衡二叉树左右.png)
+    ![09_平衡二叉树左右](img/集合05-平衡二叉树左右.png)
 
 + 右右
 
@@ -811,7 +811,7 @@ public static void show(ArrayList<? extends People> people){
 
   + 如何旋转: 直接对整体进行左旋即可
 
-    ![10_平衡二叉树右右](img\集合06-平衡二叉树右右.png)
+    ![10_平衡二叉树右右](img/集合06-平衡二叉树右右.png)
 
 + 右左
 
@@ -821,7 +821,7 @@ public static void show(ArrayList<? extends People> people){
 
     + 即先变为右右，然后整体左旋
 
-    ![11_平衡二叉树右左](img\集合07-平衡二叉树右左.png)
+    ![11_平衡二叉树右左](img/集合07-平衡二叉树右左.png)
 
 #### 2.4.5 红黑树
 
@@ -1366,7 +1366,7 @@ list.stream().map(String::toUpperCase).forEach(s -> System.out.println(s));
 
 **分类**
 
-![](img\异常-异常的分类.png)
+![](img/异常-异常的分类.png)
 
 
 
