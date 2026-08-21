@@ -416,7 +416,7 @@ vim 是 vi 的加强版本，兼容 vi 的所有指令，不仅能编辑文本�
   i 可以进入输入模式， :  可以进入底线命令模式，
 - 输入模式可以通过  按  Esc  退回到命令模式
 - 底线命令模式按回车完成命令后，自动回到命令模式
-  ：wq 命令可退出vim工作模式
+  `：wq `命令可退出vim工作模式
 
 ![](img/Linux-img0.png)
 
@@ -424,13 +424,13 @@ vim 是 vi 的加强版本，兼容 vi 的所有指令，不仅能编辑文本�
 
 <img src="img/Linux-img1.png" title="1" style="zoom:80%;" />
 
-<img src="img\Linux-img2.png" title="2"  />
+<img src="img/Linux-img2.png" title="2"  />
 
-<img src="img\Linux-img3.png" title="3" style="zoom: 125%;" />
+<img src="img/Linux-img3.png" title="3" style="zoom: 125%;" />
 
 #### 2.10.6 底线命令模式快捷键
 
-![](img\Linux-img4.png)
+![](img/Linux-img4.png)
 
 ### 2.11 补充
 
@@ -1017,11 +1017,11 @@ KibSwap：虚拟内存（交换空间），total：总量，free：空闲，used
 
 **‌top命令选项**
 
-![](img/top1.png)
+![](img/Linux-top1.png)
 
 当top以交互式运行（非-b选项启动），可以用以下交互式命令进行控制
 
-![](img/top2.png)
+![](img/Linux-top2.png)
 
 #### 4.9.2 磁盘信息监控
 
