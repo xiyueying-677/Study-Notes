@@ -418,19 +418,19 @@ vim 是 vi 的加强版本，兼容 vi 的所有指令，不仅能编辑文本�
 - 底线命令模式按回车完成命令后，自动回到命令模式
   `：wq `命令可退出vim工作模式
 
-![](img/Linux-img0.png)
+![](img/Linux/Linux-img0.png)
 
 #### 2.10.5 命令模式快捷键
 
-<img src="img/Linux-img1.png" title="1" style="zoom:80%;" />
+<img src="img/Linux/Linux-img1.png" title="1" style="zoom:80%;" />
 
-<img src="img/Linux-img2.png" title="2"  />
+<img src="img/Linux/Linux-img2.png" title="2"  />
 
-<img src="img/Linux-img3.png" title="3" style="zoom: 125%;" />
+<img src="img/Linux/Linux-img3.png" title="3" style="zoom: 125%;" />
 
 #### 2.10.6 底线命令模式快捷键
 
-![](img/Linux-img4.png)
+![](img/Linux/Linux-img4.png)
 
 ### 2.11 补充
 
@@ -540,7 +540,7 @@ Linux中关于权限的管控级别有2个级别，分别是：
 
 通过ls -l 可以以列表形式查看内容，并显示权限细节
 
-![](img/Linux-img5.png )
+![](img/Linux/Linux-img5.png )
 
 - 序号1，表示文件、文件夹的权限控制信息
 - 序号2，表示文件、文件夹所属用户
@@ -744,7 +744,7 @@ ln命令创建软连接
 
 #### **4.5.2 date命令进行日期加减**
 
-![](img/linux-img6.png)
+![](img/Linux/linux-img6.png)
 
 - -d选项，可以按照给定的字符串显示日期，一般用于日期计算
 - 其中支持的时间标记为：
@@ -800,7 +800,7 @@ IP地址主要有2个版本，V4版本和V6版本
 
 其中，www.baidu.com，是百度的网址，我们称之为：域名
 
-![](img/Linux-img7.png)
+![](img/Linux/Linux-img7.png)
 
 - 先查看本机的记录（私人地址本）
   - Windows看：C:\Windows\System32\drivers\etc\hosts
@@ -982,7 +982,7 @@ Linux系统是一个超大号小区，可以支持65535个端口，这6万多个
 
 语法：直接输入top即可，按q或ctrl + c退出
 
-![](img/Linux-img8.png)
+![](img/Linux/Linux-img8.png)
 
 第一行：top：命令名称，14:39:58：当前系统时间，up 3 min：启动了3分钟，2 users：2个用户登录，load：1、5、15分钟负载
 
@@ -1000,7 +1000,7 @@ KibSwap：虚拟内存（交换空间），total：总量，free：空闲，used
 
 **top命令内容详解**
 
-![](img/Linux-img9.png)
+![](img/Linux/Linux-img9.png)
 
 - PID：进程id
 - USER：进程所属用户
@@ -1017,11 +1017,11 @@ KibSwap：虚拟内存（交换空间），total：总量，free：空闲，used
 
 **‌top命令选项**
 
-![](img/Linux-top1.png)
+![](img/Linux/Linux-top1.png)
 
 当top以交互式运行（非-b选项启动），可以用以下交互式命令进行控制
 
-![](img/Linux-top2.png)
+![](img/Linux/Linux-top2.png)
 
 #### 4.9.2 磁盘信息监控
 
@@ -1062,7 +1062,7 @@ txKB/S 每秒钟发送的数据包大小，单位为KB
 
 无论当前工作目录是什么，都能执行/usr/bin/cd这个程序，这个就是借助环境变量中：PATH这个项目的值来做到的。
 
-![](img/Linux-img10.png)
+![](img/Linux/Linux-img10.png)
 
 PATH记录了系统执行任何命令的搜索路径，如上图记录了（路径之间以 : 隔开）：
 

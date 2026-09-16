@@ -38,7 +38,7 @@ HTTP协议又分为：请求协议和响应协议
 - 响应协议：服务器将数据以响应格式返回给浏览器
   - 包括：**响应行** 、**响应头** 、**响应体** 
 
-![](img/javaWeb-06.png)
+![](img/javaWeb/javaWeb-06.png)
 
 - 请求行(以上图中红色部分)
 
@@ -72,7 +72,7 @@ HTTP协议又分为：请求协议和响应协议
 
 #### 1.1.3 响应协议
 
-![](img/javaWeb-07.png)
+![](img/javaWeb/javaWeb-07.png)
 
 * 响应行(以上图中红色部分)：响应数据的第一行。响应行由`协议及版本`、`响应状态码`、`状态码描述`组成
 
@@ -479,7 +479,7 @@ public class Result {
 - 逻辑处理：负责业务逻辑处理的代码。
 - 请求处理、响应数据：负责，接收页面的请求，给页面响应数据。
 
-![](img/javaWeb-08.png)
+![](img/javaWeb/javaWeb-08.png)
 
 - Controller：控制层。负责请求处理
 - Service：业务逻辑层。负责逻辑处理
@@ -618,19 +618,19 @@ public class EmpDaoA implements EmpDao {
 
 第1步：删除Controller层、Service层中new对象的代码
 
-![](img/javaWeb-09.png)
+![](img/javaWeb/javaWeb-09.png)
 
 第2步：Service层及Dao层的实现类，交给IOC容器管理
 
 - 使用Spring提供的注解：@Component ，就可以实现类交给IOC容器管理
 
-![](img/javaWeb-10.png)
+![](img/javaWeb/javaWeb-10.png)
 
 第3步：为Controller及Service注入运行时依赖的对象
 
 - 使用Spring提供的注解：@Autowired ，就可以实现程序运行时IOC容器自动注入需要的依赖对象
 
-![](img/javaWeb-11.png)
+![](img/javaWeb/javaWeb-11.png)
 
 **3）IOC bean的声明**
 
@@ -664,16 +664,16 @@ public class EmpDaoA implements EmpDao {
 
 使用@Primary注解：当存在多个相同类型的Bean注入时，加上@Primary注解，来确定默认的实现。
 
-![](img/javaWeb-12.png)
+![](img/javaWeb/javaWeb-12.png)
 
 使用@Qualifier注解：指定当前要注入的bean对象。 在@Qualifier的value属性中，指定注入的bean的名称。
 
 - @Qualifier注解不能单独使用，必须配合@Autowired使用
-- ![](img/javaWeb-13.png)
+- ![](img/javaWeb/javaWeb-13.png)
 
 使用@Resource注解：是按照bean的名称进行注入。通过name属性指定要注入的bean的名称。
 
-![](img/javaWeb-14.png)
+![](img/javaWeb/javaWeb-14.png)
 
 > @Autowird 与 @Resource的区别
 >
@@ -1518,7 +1518,7 @@ JWT全称：JSON Web Token  （官网：https://jwt.io/）
 
 JWT的组成： 
 
-![](img/javaWeb-16.png)
+![](img/javaWeb/javaWeb-16.png)
 
 - 第一部分：Header(头）， 记录令牌类型、签名算法等。 例如：{"alg":"HS256","type":"JWT"}
 - 第二部分：Payload(有效载荷），携带一些自定义信息、默认信息等。 例如：{"id":"1","username":"Tom"}

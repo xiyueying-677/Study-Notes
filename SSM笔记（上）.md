@@ -14,7 +14,7 @@ Spring狭义上指的是==Spring Framework==
 
 ### 1.1 Spring Framework
 
-![](img/SSM-01.png)
+![](img/SSM/SSM-01.png)
 
 (1)核心层
 
@@ -208,7 +208,7 @@ public class BookServiceImpl implements BookService {
 <bean id="" class=""/>
 ```
 
-![SSM-02](img/SSM-02.png)
+![SSM-02](img/SSM/SSM-02.png)
 
 **name：配置别名**
 
@@ -222,7 +222,7 @@ public class BookServiceImpl implements BookService {
 
 **scope：指定单列**
 
-![SSM-03](img/SSM-03.png)
+![SSM-03](img/SSM/SSM-03.png)
 
 #### 1.3.2 bean的创建
 
@@ -824,7 +824,7 @@ BookDao bookDao = ctx.getBean(BookDao.class);
 
 ### 1.7 注解开发
 
-![](img/SSM-04.png)
+![](img/SSM/SSM-04.png)
 
 #### 1.7.1 bean的自定义开发
 

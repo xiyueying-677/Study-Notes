@@ -142,7 +142,7 @@ class Block{
 1. 相邻的元素两两比较，大的放右边，小的放左边
 2. 第一轮比较后，确定最大值，第二轮可以少循环一次，后面以此类推
 
-![冒泡排序](img/冒泡排序.gif)
+![冒泡排序](img/javaSE/冒泡排序.gif)
 
 ```java
         //外循环：执行轮数
@@ -165,7 +165,7 @@ class Block{
 1. 第一次循环从0索引开始，跟后面的元素一一比较，找到最小值
 2. 第 i 次循环从 i - 1 索引开始，每次循环找到最小值，将其与开始索引交换
 
-![选择排序](img/选择排序.gif)
+![选择排序](img/javaSE/选择排序.gif)
 
 ```java
         //外循环：几轮
@@ -191,7 +191,7 @@ class Block{
 2. [0 , i - 1]上的值有序，[0 ,  i] 为无序
 3. 将索引 i 的值在 [0 , i - 1]填入正确位置，使[0 , i]上的值有序
 
-![插入排序](img/插入排序.gif)
+![插入排序](img/javaSE/插入排序.gif)
 
 ```java
         //1.找到无序的哪一组数组是从哪个索引开始的。
@@ -232,7 +232,7 @@ class Block{
 7. 第一轮结束之后，基准数左边的数字都是比基准数小的，基准数右边的数字都是比基准数大的。
 8. 把基准数左右两边各看做一个序列，对两个序列按照刚刚的规则递归排序
 
-![快速排序](img/快速排序.gif)
+![快速排序](img/javaSE/快速排序.gif)
 
 ```java
     public static void quickSorts(int[] arr , int left, int right){
@@ -384,7 +384,7 @@ method(
 
 #### 2.1.2集合类体系结构
 
-![01_集合类体系结构图](/img/集合01-集合类体系结构图.png)
+![01_集合类体系结构图](img/javaSE/集合01-集合类体系结构图.png)
 
 List系列集合：添加的元素是有序、可重复、有索引
 
@@ -571,11 +571,11 @@ System.out.println(list);
 
 LinkedList添加元素原理
 
-![LinkedList源码分析](img/集合02-LinkedList源码分析.png)
+![LinkedList源码分析](img/javaSE/集合02-LinkedList源码分析.png)
 
 迭代器原理
 
-![迭代器源码分析](img/集合03-迭代器源码分析.png)
+![迭代器源码分析](img/javaSE/集合03-迭代器源码分析.png)
 
 #### 2.2.6 Hash
 
@@ -795,7 +795,7 @@ public static void show(ArrayList<? extends People> people){
 
   + 如何旋转: 直接对整体进行右旋即可
 
-    ![08_平衡二叉树左左](img/集合04-平衡二叉树左左.png)
+    ![08_平衡二叉树左左](img/javaSE/集合04-平衡二叉树左左.png)
 
 + 左右
 
@@ -805,7 +805,7 @@ public static void show(ArrayList<? extends People> people){
 
     + 即先变为左左，然后整体右旋
 
-    ![09_平衡二叉树左右](img/集合05-平衡二叉树左右.png)
+    ![09_平衡二叉树左右](img/javaSE/集合05-平衡二叉树左右.png)
 
 + 右右
 
@@ -813,7 +813,7 @@ public static void show(ArrayList<? extends People> people){
 
   + 如何旋转: 直接对整体进行左旋即可
 
-    ![10_平衡二叉树右右](img/集合06-平衡二叉树右右.png)
+    ![10_平衡二叉树右右](img/javaSE/集合06-平衡二叉树右右.png)
 
 + 右左
 
@@ -823,7 +823,7 @@ public static void show(ArrayList<? extends People> people){
 
     + 即先变为右右，然后整体左旋
 
-    ![11_平衡二叉树右左](img/集合07-平衡二叉树右左.png)
+    ![11_平衡二叉树右左](img/javaSE/集合07-平衡二叉树右左.png)
 
 #### 2.4.5 红黑树
 
@@ -845,7 +845,7 @@ public static void show(ArrayList<? extends People> people){
 5. 对每一个节点,从该节点到其所有后代叶节点的简单路径上,均包含相同数目的黑色节点
    即，到每个后代叶节点（Nil）的路径上黑色节点个数相等
 
-![12_红黑树结构图](img/集合08-红黑树结构图.png)
+![12_红黑树结构图](img/javaSE/集合08-红黑树结构图.png)
 
 **3）红黑树添加节点的规则**
 
@@ -872,7 +872,7 @@ public static void show(ArrayList<? extends People> people){
     
       > 叔叔为黑色的情况是，父红叔红，将祖父节点设为当前节点的情况下
 
-![](img/集合09-红黑树添加节点.png)
+![](img/javaSE/集合09-红黑树添加节点.png)
 
 ### 2.5 Map
 
@@ -1368,7 +1368,7 @@ list.stream().map(String::toUpperCase).forEach(s -> System.out.println(s));
 
 **分类**
 
-![](img/异常-异常的分类.png)
+![](img/javaSE/异常-异常的分类.png)
 
 
 

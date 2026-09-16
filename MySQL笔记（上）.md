@@ -713,7 +713,7 @@ https://www.cs.usfca.edu/~galles/visualization/BPlusTree.html
 - 一旦节点存储的key数量到达5，就会裂变，中间元素向上分裂。
 - 在B树中，非叶子节点和叶子节点都会存放数据。
 
-![](img/MySQL-01-BTree.png)
+![](img/MySQL/MySQL-01-BTree.png)
 
 **2）B+树**
 
@@ -721,7 +721,7 @@ https://www.cs.usfca.edu/~galles/visualization/BPlusTree.html
 - 叶子节点形成一个单向链表。
 - 非叶子节点仅仅起到索引数据作用，具体的数据都是在叶子节点存放的。
 
-![](img/MySQL-02-B+Tree.png)
+![](img/MySQL/MySQL-02-B+Tree.png)
 
 **3）MySQL B+Tree**
 
@@ -734,7 +734,7 @@ MySQL索引数据结构对经典的B+Tree进行了优化。在原B+Tree的基础
 - B. 对于Btree，非叶子节点保存数据，导致一页中存储的键值、指针减少，只能增加树的高度
 - C. 相对Hash索引，B+tree支持范围匹配及排序操作； 
 
-![](img/MySQL-03-优化B+Tree.jpg)
+![](img/MySQL/MySQL-03-优化B+Tree.jpg)
 
 #### 8.2.3 Hash
 
@@ -1077,7 +1077,7 @@ SQL提示：在SQL语句中加入一些人为的提示来达到优化操作的�
 >
 > 若建立联合索引则不会
 
-![](img/MySQL-04-联合索引.jpg)
+![](img/MySQL/MySQL-04-联合索引.jpg)
 
 #### 8.6.8 索引设计原则
 
@@ -1163,7 +1163,7 @@ fields terminated  by  ','  lines  terminated  by  '\n' ;
 
 行数据，都是存储在聚集索引的叶子节点上的
 
-![](img/MySQL-05-逻辑存储结构.jpg)
+![](img/MySQL/MySQL-05-逻辑存储结构.jpg)
 
 在InnoDB引擎中，数据行是记录在逻辑结构 page 页中的，每一个页的大小是固定16K。
 一个页中所存储的行是有限的，如果数据页剩余空间不能存储数据行
@@ -1183,12 +1183,12 @@ B. 主键乱序插入效果
 
 -  加入1#,2#页都已经写满了，此时再插入id为50的记录
 
-![](img/MySQL-06-页分裂.jpg)
+![](img/MySQL/MySQL-06-页分裂.jpg)
 
 - 此时会开辟一个新的页 3#
 - 先将1#页后一半的数据，移动到3#页，然后在3#页，插入50
 
-![](img/MySQL-07-页分裂2.jpg)
+![](img/MySQL/MySQL-07-页分裂2.jpg)
 
 - 此时，这三个页之间的数据顺是有问题，重新设置链表指针。`1# -> 3# -> 2#`
 
@@ -1200,14 +1200,14 @@ B. 主键乱序插入效果
 - 实际上数据并没有被物理删除，只是被标记（flaged）为删除
   并且它的空间变得允许被其他记录声明使用。
 
-![](img/MySQL-08-页合并.jpg)
+![](img/MySQL/MySQL-08-页合并.jpg)
 
 - 当页中删除的记录达到 MERGE_THRESHOLD（默认为页的50%）
   InnoDB会开始寻找最靠近的页（前或后），判断是否可以将两个页合并以优化空间使用。
 
-![](img/MySQL-09-页合并2.jpg)
+![](img/MySQL/MySQL-09-页合并2.jpg)
 
-![](img/MySQL-10-页合并3.jpg)
+![](img/MySQL/MySQL-10-页合并3.jpg)
 
 这个里面所发生的合并页的这个现象，就称之为 "页合并"。
 

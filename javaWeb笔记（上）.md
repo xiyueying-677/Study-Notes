@@ -944,7 +944,7 @@ Button ：\<input type='button'>
 
 
 
-![](img/javaWeb-01.png)
+![](img/javaWeb/javaWeb-01.png)
 
 **作用**
 
@@ -1033,7 +1033,7 @@ Vue 是一套**前端框架**，免除原生JavaScript中的DOM操作，简化�
 - View: 视图，用于展示数据的页面，可以理解成我们的html+css搭建的页面，但是没有数据
 - ViewModel: 数据绑定到视图，负责将数据（Model）通过JS的DOM技术，将数据展示到视图（View）上
 
-![](img/javaWeb-02.png)
+![](img/javaWeb/javaWeb-02.png)
 
 ### 3.2 快速入门
 
@@ -1176,9 +1176,9 @@ Ajax: 全称Asynchronous JavaScript And XML，异步的JavaScript和XML。其作
 - 异步交互：可以在**不重新加载整个页面**的情况下，与服务器交换数据并**更新部分网页**的技术
   如：搜索联想、用户名是否可用的校验等等。
 
-![](img/javaWeb-03.png)
+![](img/javaWeb/javaWeb-03.png)
 
-![](img/javaWeb-04.png)
+![](img/javaWeb/javaWeb-04.png)
 
 ### 4.2 Axios
 
@@ -1303,7 +1303,7 @@ mvn的中央仓库（https://mvnrepository.com/）
 
 2. 间接依赖：被依赖的资源如果依赖其他资源，当前项目间接依赖其他资源
 
-![](img/javaWeb-05.png)
+![](img/javaWeb/javaWeb-05.png)
 
 **2）排除依赖**：指主动断开依赖的资源
 
@@ -1377,7 +1377,7 @@ Maven对项目构建的生命周期划分为3套（相互独立）：
   </parent>
   ```
 
-![](img/javaWeb-17.png)
+![](img/javaWeb/javaWeb-17.png)
 
 ### 5.6 版本锁定
 
