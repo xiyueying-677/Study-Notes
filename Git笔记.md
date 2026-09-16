@@ -220,13 +220,14 @@ git check-ignore -v 文件名
 | 目的 | 命令 |
 | ---- | ---- |
 | 看状态 | `git status` |
-| 全部加入暂存区 | `git add -A` |
+| 全部加入暂存区 | `git add -A\地址` |
 | 提交 | `git commit -m "说明"` |
 | 上传 | `git push` |
 | 拉取 | `git pull` |
-| 历史 | `git log --oneline` |
-| 查看改动 | `git diff` |
+| 查看commit历史 | `git log --oneline` |
+| 查看工作区、暂存区改动 | `git diff` |
 | 丢弃改动 | `git restore 文件` |
 | 换分支 | `git switch 分支名` |
 
 **日常只记这四条：** `git status` → `git add -A` → `git commit -m "说明"` → `git push`
+

@@ -1,5 +1,7 @@
 ## javeSE笔记
 
+[javaSE笔记（中）](javaSE笔记（中）)
+
 ## 快捷键
 
 psvm + tap  快捷创建main函数
