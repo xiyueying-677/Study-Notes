@@ -2,6 +2,8 @@ git笔记
 
  `git init` ：对文件夹进行git初始化，让它由git管理
 
+
+
 `.gitignore`文件：使某个文件不被git管理
 
 ```

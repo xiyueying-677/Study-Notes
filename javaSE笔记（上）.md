@@ -1,6 +1,6 @@
 ## javeSE笔记
 
-[javaSE笔记（中）](javaSE笔记（中）)
+[javaSE笔记（中）](javaSE笔记（中）.md)
 
 ## 快捷键
 

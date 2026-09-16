@@ -1,6 +1,6 @@
 ## javaSE笔记(中)
 
-[javaSE笔记（上）](javaSE笔记（上）)
+[javaSE笔记（上）](javaSE笔记（上）.md)
 
 ## 1 常见算法
 

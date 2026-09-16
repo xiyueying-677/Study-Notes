@@ -1,6 +1,6 @@
 ## MySQL笔记（上）
 
-[MySQL笔记（下）](MySQL笔记（下）)
+[MySQL笔记（下）](MySQL笔记（下）.md)
 
 ## 1 MySQL数据库
 
